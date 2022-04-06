@@ -1,0 +1,8 @@
+Merge가 아닌 Overwrite가 필요한 상황
+
+1. master branch를 pull 땡겨서 동기화
+
+```
+git pull fetch origin
+
+```
