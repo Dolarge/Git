@@ -1,8 +1,16 @@
 Merge가 아닌 Overwrite가 필요한 상황
 
-1. master branch를 pull 땡겨서 동기화
+1. master branch를 pull 땡겨서 동기화  - git pull fetch origin
 
-```
-git pull fetch origin
+2. Master에 엎어쓸 Branch (ex. dolarge)로 채크아웃 - git checkout dolarge
 
-```
+3. dolarge branch에 git merge -strategy=ours master
+
+4. commit message 
+
+5. master branch로 checkout - git checkout master
+
+6. master branch에서 git merge -no-ff-dolage
+
+7. commit message 입력
+
